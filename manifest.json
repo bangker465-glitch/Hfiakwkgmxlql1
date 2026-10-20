@@ -1,0 +1,55 @@
+{
+  "name": "MyCigar - Catatan Rokok",
+  "short_name": "MyCigar",
+  "description": "Pencatatan penjualan rokok harian: kasir, rekap, pengeluaran",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#f59e0b",
+  "lang": "id",
+  "categories": ["business", "productivity", "finance"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Kasir",
+      "short_name": "Kasir",
+      "description": "Buka halaman kasir",
+      "url": "./index.html#kasir",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Pengeluaran",
+      "short_name": "Belanja",
+      "description": "Catat pengeluaran",
+      "url": "./index.html#pengeluaran",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
